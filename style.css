@@ -9,7 +9,9 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:#1f2937;
     width:100%;
-    padding:100px;
+    padding-top:20px;
+    padding-left:8px;
+    padding-right:8px
 
 }
 
@@ -90,11 +92,41 @@ body {
     display:flex;
     justify-content:center;
     flex-direction:column;
-    align-items:center
+    align-items:center;
+    align-content:center;
+    width:100%;
 }
 
 .headertwo {
     font-size:36px;
     font-weight:bolder;
-    color:#1F2937
+    color:#1F2937;
+    padding:100px
+}
+
+.imageholders {
+    justify-content:center;
+    display:flex;
+    margin-left:100px;
+    margin-right:100px;
+
+}
+
+.box{
+    height:200px;
+    width:200px;
+    border: solid #3882f6;
+    border-radius:15px
+}
+
+.boxone {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    flex-shrink:0;
+}
+
+.imagetext {
+    padding:10px
 }
