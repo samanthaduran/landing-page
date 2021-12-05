@@ -109,14 +109,14 @@ body {
 .imageholders {
     justify-content:center;
     display:flex;
-    width:1000px;
+    width:750px;
     margin-bottom:50px
 
 }
 
 .box{
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
     border: solid #3882f6;
     border-radius:15px
 }
@@ -132,4 +132,32 @@ body {
     padding-left:40px;
     padding-right:40px;
     padding-top:10px;
+}
+
+.sectionthree {
+    width:100%;
+    background-color:#E5E7EB;
+    padding:8px
+    
+}
+
+.sectionthreetext {
+    width:750px;
+    padding-left:325px;
+    padding-top:100px;
+    font-size: 36px;
+    color:#1F2937;
+    font-style:italic;
+    font-weight:lighter
+}
+
+.signature {
+    color:#1f2937;
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    text-align:right;
+    margin-right:225px;
+    padding:25px
+    
 }
