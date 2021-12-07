@@ -58,10 +58,11 @@ body {
     background-color:grey;
     align-items:center;
     justify-content:center;
-    height:250px;
+    height:230px;
     flex-shrink:0;
     margin-right:10px;
-    margin-bottom:100px
+    margin-bottom:100px;
+    border-radius:2px
 }
 
 .words {
@@ -196,4 +197,14 @@ body {
     border-radius:5px;
     border-width: thin;
     font-weight:bold
+}
+
+.sectionfive {
+    background-color: #1f2937;
+    color:#F9FAF8;
+    width:100%;
+    padding:50px 8px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
 }
